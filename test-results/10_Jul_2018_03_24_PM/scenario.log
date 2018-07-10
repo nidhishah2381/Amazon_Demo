@@ -1,0 +1,28 @@
+15:24:43 scenario.file.loc[Ljava.lang.String;@3e77a1ed
+15:24:43 loading BDD file: scenarios/QAFTest.bdd
+15:24:43 total test found: 1
+15:24:43 
+
+Executing scenario: Amazon Shopping Demo - recorded scenario
+15:24:43 pkg: com.qmetry.qaf.automation.step
+15:24:43 pkg: com.amazon_demo
+15:24:44 Found duplicate step to load [] with [lower] prority then []
+15:24:44 Invoking Teststep: Given get 'https://www.amazon.com/' with arguments: [https://www.amazon.com/]
+15:24:51 Completed Teststep: Given get 'https://www.amazon.com/' with arguments: [https://www.amazon.com/]
+15:24:51 Invoking Teststep: When click on 'twotabsearchtextbox.loc' with arguments: [twotabsearchtextbox.loc]
+15:25:05 Completed Teststep: When click on 'twotabsearchtextbox.loc' with arguments: [twotabsearchtextbox.loc]
+15:25:05 Invoking Teststep: And sendKeys 'echo' into 'twotabsearchtextbox.loc' with arguments: [echo, twotabsearchtextbox.loc]
+15:25:05 Completed Teststep: And sendKeys 'echo' into 'twotabsearchtextbox.loc' with arguments: [echo, twotabsearchtextbox.loc]
+15:25:05 Invoking Teststep: And submit 'site.search.loc' with arguments: [site.search.loc]
+15:25:06 Completed Teststep: And submit 'site.search.loc' with arguments: [site.search.loc]
+15:25:06 Invoking Teststep: When click on 'Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc' with arguments: [Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc]
+15:25:11 Completed Teststep: When click on 'Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc' with arguments: [Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc]
+15:25:11 Invoking Teststep: When click on 'add.to.cart.button.loc' with arguments: [add.to.cart.button.loc]
+15:25:11 Completed Teststep: When click on 'add.to.cart.button.loc' with arguments: [add.to.cart.button.loc]
+15:25:11 Invoking Teststep: When click on 'a.button.input.loc' with arguments: [a.button.input.loc]
+15:25:24 Completed Teststep: When click on 'a.button.input.loc' with arguments: [a.button.input.loc]
+15:25:24 Invoking Teststep: And assert 'success.message' text is "1 item added to Cart" with arguments: [success.message, 1 item added to Cart]
+15:25:36 Completed Teststep: And assert 'success.message' text is "1 item added to Cart" with arguments: [success.message, 1 item added to Cart]
+15:25:36 Invoking Teststep: When click on 'hucSprites.checkouthlb.checkout.button.loc' with arguments: [hucSprites.checkouthlb.checkout.button.loc]
+15:25:40 Completed Teststep: When click on 'hucSprites.checkouthlb.checkout.button.loc' with arguments: [hucSprites.checkouthlb.checkout.button.loc]
+15:25:40 Competed scenario: Amazon Shopping Demo with status SUCESS
