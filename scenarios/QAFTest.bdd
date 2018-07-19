@@ -9,4 +9,5 @@ META-DATA: {"description":"recorded scenario"}
 	When click on 'a.button.input.loc'
 	And assert 'success.message' text is "1 item added to Cart"
 	When click on 'hucSprites.checkouthlb.checkout.button.loc'
+	#Demo
 END
